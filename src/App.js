@@ -12,12 +12,13 @@ import Input from './components/Form/Input';
 //usar o initialData no form so serve quando os dados que nos iremos buscar for
 //estático, a partir do momento que buscar dados assincronos nos deixamos de utilizar ele.
 //serve para alteração de dados que esteja no DB, ja salvo.
-const initialData = {
+/*const initialData = {
   email:"gabriel.devloper@gmail.com",
   address: {
     zipcode: "57062495"
   }
 }
+*/
 
 function App() {
   
@@ -56,8 +57,8 @@ function App() {
       }
     }
 
-    const { city } = data.address;
-    const {name, email} = data;
+    //const { city } = data.address;
+    //const {name, email} = data;
 
     console.log(data);
   }
